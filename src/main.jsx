@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./Index.css";
+import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 import Home from "./Home";
@@ -8,7 +8,6 @@ import About from "./About";
 import Contact from "./Contact";
 import Root from "./Root";
 import SingleClock from "./SingleClock";
-
 
 const router = createBrowserRouter([
   {
